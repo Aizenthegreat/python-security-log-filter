@@ -2,12 +2,6 @@
 
 **Enterprise-grade security log analysis tool implementing Zero Trust principles and NIST frameworks with automated threat detection.**
 
-![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Security](https://img.shields.io/badge/security-Zero%20Trust-orange.svg)
-![Framework](https://img.shields.io/badge/framework-NIST%20CSF-blueviolet.svg)
-![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red.svg)
-
 ##  Overview
 
 A production-ready Python tool that automates security log analysis, threat detection, and compliance validation. This tool demonstrates practical cybersecurity engineering skills by implementing enterprise security frameworks in a minimal, efficient codebase.
@@ -49,10 +43,54 @@ MITRE ATT&CK
 NIST 800-53
 -------------------------------------------------
 intended output
-<img width="1786" height="1098" alt="image" src="https://github.com/user-attachments/assets/9a57bc76-2871-405e-b7da-203c2d8db263" />
-<img width="1635" height="927" alt="image" src="https://github.com/user-attachments/assets/a170871a-7f49-4b60-9267-d885926a6b1a" />
+============================================================
+ SECURITY LOG ANALYZER - PORTFOLIO EDITION
+============================================================
 
------------------------------------------------------------------------
-inside saved json
-<img width="1397" height="657" alt="image" src="https://github.com/user-attachments/assets/554642c2-1dc6-4777-b896-d752d1286aef" />
+ Analyzing sample_logs.txt...
+    Processed 8 security events
+     Found 2 potential threats
+
+============================================================
+SECURITY ANALYSIS REPORT
+Generated: [current date and time]
+============================================================
+
+ EXECUTIVE SUMMARY
+   Total Events: 8
+   Threats Detected: 2
+   Zero Trust Score: 52.5/100
+   NIST Compliance: 2/4
+
+ ZERO TRUST ASSESSMENT
+    Never Trust, Always Verify: ENABLED
+    Least Privilege: ENFORCED
+    Assume Breach: ACTIVE
+
+ NIST COMPLIANCE STATUS
+    AC-7: Unsuccessful Login Attempts
+    IA-2: Identification & Authentication
+    SC-7: Boundary Protection
+    SI-4: Information System Monitoring
+
+  TOP THREATS
+   [HIGH] Multiple failed logins from 192.168.1.100
+      MITRE: T1110
+      Action: Block 192.168.1.100, enable MFA
+   [MEDIUM] Port scan from 203.0.113.45 to 3 targets
+      MITRE: T1046
+      Action: Investigate 203.0.113.45, update firewall
+
+ RECOMMENDATIONS
+   1. Implement Zero Trust Architecture fully
+   2. Enable MFA for all privileged accounts
+   3. Regular compliance audits
+   4. Threat intelligence integration
+
+ Results saved to report.json
+============================================================
+Analysis complete - Ready for portfolio showcase!
+============================================================
+
+
 
